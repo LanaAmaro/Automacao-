@@ -10,11 +10,17 @@ public class ClienteSteps {
 	@Given("efetuei login no sistema")
 	public void efetuarLogin() {
 
+		LoginPage loginpage = new LoginPage();
+
+		loginpage.efetuarLogin();
+
 	}
 
 	@And("acessei o menu Clientes >> Inserir")
 	public void acessarMenuClientesInserir() {
 
+		MenusPage menuspage = new MenusPage();
+		menuspage.acessarMenuClientesInserir();
 	}
 
 	@When("na tela Dados de Identificacao informo os dados de Pessoa Fisica")
