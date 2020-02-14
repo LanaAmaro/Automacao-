@@ -13,6 +13,8 @@ public class ClienteElementMap {
 	protected WebElement data_nascimento;
 	protected WebElement sexo;
 	protected WebElement estado_civil;
+	
+	protected WebElement avancar;
 
 	// endereço principal
 	protected WebElement endp_cep;
@@ -33,5 +35,8 @@ public class ClienteElementMap {
 	protected WebElement endpc_estado;
 	protected WebElement endpc_telefone;
 	protected WebElement endpc_celular;
+	
+	protected WebElement salvar;
+
 
 }

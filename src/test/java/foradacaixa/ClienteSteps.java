@@ -44,7 +44,7 @@ public class ClienteSteps {
 	public void clicarSalvar() {
 
 		ClientePage clientepage = new ClientePage();
-		clientepage.clicarAvancar();
+		clientepage.clicarSalvar();
 
 	}
 
